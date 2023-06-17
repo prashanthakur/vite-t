@@ -1,4 +1,5 @@
-import React from 'react'
+import React from 'react';
+import { NavLink } from 'react-router-dom';
 
 const Navba = () => {
   return (
@@ -6,9 +7,9 @@ const Navba = () => {
     <header class="text-gray-600 body-font bg-primary">
   <div class="container mx-auto flex flex-wrap p-5 flex-col md:flex-row items-center">
     <nav class="flex lg:w-2/5 flex-wrap items-center text-base md:ml-auto">
-      <a class="mr-5 hover:text-gray-900 hover:cursor-pointer">Learn</a>
-      <a class="mr-5 hover:text-gray-900 hover:cursor-pointer">Practice</a>
-      <a class="mr-5 hover:text-gray-900 hover:cursor-pointer">Test</a>
+      <NavLink to="/" class="mr-5 hover:text-gray-900 hover:cursor-pointer">Learn</NavLink>&nbsp;&nbsp;
+      <NavLink class="mr-5 hover:text-gray-900 hover:cursor-pointer">Practice</NavLink>&nbsp;&nbsp;
+      <NavLink to='/tests' class="mr-5 hover:text-gray-900 hover:cursor-pointer">Test</NavLink>
       {/* <a class="hover:text-gray-900">Fourth Link</a> */}
     </nav>
     <a class="flex order-first lg:order-none lg:w-1/5 title-font font-medium items-center text-gray-900 lg:items-center lg:justify-center mb-4 md:mb-0">
