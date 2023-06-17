@@ -105,7 +105,7 @@ const HtmlTest = () => {
       ]
         const [currentQuestion, setCurrentQuestion] = useState(0);
         const [selectedOption, setSelectedOption] = useState(null);
-        const [showScore, setShowScore] = useState(true);
+        const [showScore, setShowScore] = useState(false);
         const [score, setScore] = useState(0);
       
         const handleOptionSelect = (optionIndex) => {
