@@ -8,9 +8,9 @@ const TestPage = () => {
             <section class="py-10">
                 <div class="container mx-auto px-4">
                     <div class="flex flex-wrap -mx-4">
-                        <NavLink to='/tests/html' className='w-screen'><SingleCard title="Html"/></NavLink>
+                        <NavLink to='/tests/html' className='w-full md:w-1/3 px-4 mb-8'><SingleCard title="Html"/></NavLink>
                         {/* <SingleCard title="Html"/> */}
-                        <NavLink to='/tests/css'><SingleCard title="CSS"/></NavLink>
+                        <NavLink to='/tests/css' className='w-full md:w-1/3 px-4 mb-8'><SingleCard title="CSS"/></NavLink>
                         <SingleCard title="Javascript"/>
                         <SingleCard title="React"/>
                         <SingleCard title="Java"/>

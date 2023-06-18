@@ -1,5 +1,6 @@
 import React from 'react';
 import { NavLink } from 'react-router-dom';
+import hoticon from '../assets/hot-sale.png'
 
 const Navbar = () => {
   return (
@@ -9,8 +10,8 @@ const Navbar = () => {
     <nav class="flex lg:w-2/5 flex-wrap items-center text-base md:ml-auto">
       <NavLink to="/" class="mr-5 hover:text-gray-900 hover:cursor-pointer">Learn</NavLink>&nbsp;&nbsp;
       <NavLink to='/practice' class="mr-5 hover:text-gray-900 hover:cursor-pointer">Practice</NavLink>&nbsp;&nbsp;
-      <NavLink to='/tests' class="mr-5 hover:text-gray-900 hover:cursor-pointer">Test</NavLink>&nbsp;&nbsp;
-      <NavLink to='/practice' class="mr-5 text-yellow-700 hover:text-gray-900 hover:cursor-pointer">Premium</NavLink>&nbsp;&nbsp;
+      <NavLink to='/tests' class="mr-5 hover:text-gray-900 hover:cursor-pointer">Test</NavLink>&nbsp;<img src={hoticon} className='h-5 w-5'/>
+      {/* <NavLink to='/practice' class="mr-5 text-yellow-700 hover:text-gray-900 hover:cursor-pointer">Premium</NavLink>&nbsp;&nbsp; */}
 
       {/* <a class="hover:text-gray-900">Fourth Link</a> */}
     </nav>

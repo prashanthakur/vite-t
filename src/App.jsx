@@ -9,13 +9,15 @@ import ComingSoon from './components/ComingSoon'
 import Footer from './components/Footer'
 import CssTest from './components/CssTest'
 
+// https://colorhunt.co/palette/ecf8f9068da97e1717e55807
+
 function App() {
     const [count, setCount] = useState(0)
 
     return (
         <>
         <BrowserRouter>
-        <div className='h-8 bg-red-500 text-center text-white'>This is in Development ! Early access</div>
+        <div className='h-8 bg-red-500 text-center text-white'>This is in Development ! Early access only</div>
         <Navbar/>
         <Routes>
             <Route exact path='/' element={<Home/>}></Route>
