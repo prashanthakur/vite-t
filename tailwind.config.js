@@ -10,8 +10,11 @@ export default {
         'poppins': ['Poppins'],
      },
      colors:{
-      'primary':'rgb(196,185,254)',
-      'blackish':' #003300',
+      // 'primary':'rgb(196,185,254)',
+      'primary':'#068DA9',
+      'whitish':' #ECF8F9',
+      'maroon':'#7E1717',
+      'pulp':'#E55807'
     }
     },
   },

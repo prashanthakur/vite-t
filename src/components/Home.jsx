@@ -5,11 +5,11 @@ import Showcase from './Showcase'
 const Home = () => {
   return (
     <>
-      <section class="bg-[rgb(196,185,254)] py-20">
+      <section class="bg-primary py-20">
         <div class="container mx-auto px-4">
           <div class="max-w-3xl mx-auto text-center">
-            <h1 class="text-4xl md:text-5xl font-bold text-blackish">Welcome to Mentor.Connect</h1>
-            <p class="text-xl md:text-2xl mt-4 text-[#4d79ff]">Unlock your potential with our free top-notch educational programs</p>
+            <h1 class="text-4xl md:text-5xl font-bold text-whitish">Welcome to Learnify</h1>
+            <p class="text-xl md:text-2xl mt-4 text-whitish">Unlock your potential with our free top-notch educational programs</p>
             <a href="#" class="bg-white text-blue-500 hover:text-blue-600 hover:bg-blue-100 px-6 py-3 rounded-full mt-8 inline-block font-bold">Early access</a>
           </div>
         </div>
