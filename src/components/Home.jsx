@@ -6,6 +6,7 @@ import {jod , ghata} from '../store/counterSlice'
 import { useDispatch } from 'react-redux';
 import { getProducts } from '../store/productSlice';
 import { useSelector } from 'react-redux';
+import { Link } from 'react-router-dom';
 
 const Home = () => {
   const dispatch = useDispatch();
@@ -51,14 +52,14 @@ const Home = () => {
         <div className="container mx-auto px-4">
           <div className="flex flex-wrap -mx-4">
             <div className="w-full md:w-1/3 px-4 mb-8">
-              <div className="bg-white shadow-lg rounded-lg overflow-hidden">
+              <Link to='/frontend-roadmap' className="bg-white shadow-lg rounded-lg overflow-hidden">
                 <img className="w-full h-48 object-cover" src={hero} alt="Card Image 1" />
                 <div className="p-4">
                   <h3 className="text-lg font-bold text-pulp">Frontend development</h3>
                   <p className="text-gray-700 mt-2 line-clamp-4">Front-end development refers to the practice of building the user-facing components of a website or application. It involves the use of programming languages such as HTML, CSS, and JavaScript to create engaging and interactive user interfaces that enhance the user experience and bring designs to life. Front-end developers are responsible for translating design mockups into functional web pages, ensuring responsiveness across devices, and optimizing performance for seamless user interaction.</p>
-                  <a href="#" className="bg-pulp text-white rounded-full px-4 py-2 mt-4 inline-block">Coming soon</a>
+                  <a href="#" className="bg-pulp text-white rounded-full px-4 py-2 mt-4 inline-block">Check Now</a>
                 </div>
-              </div>
+              </Link>
             </div>
             <div className="w-full md:w-1/3 px-4 mb-8">
               <div className="bg-white shadow-lg rounded-lg overflow-hidden">

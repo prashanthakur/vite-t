@@ -19,7 +19,8 @@ const Navbar = () => {
           <nav className="flex lg:w-2/5 flex-wrap items-center text-base md:ml-auto">
             <NavLink to="/" className="mr-5 hover:text-gray-900 hover:cursor-pointer">Learn{items.length >= 1 ? items.length : ''}</NavLink>&nbsp;&nbsp;
             <NavLink to='/practice' className="mr-5 hover:text-gray-900 hover:cursor-pointer">Practice</NavLink>&nbsp;&nbsp;
-            <NavLink to='/tests' className="mr-5 hover:text-gray-900 hover:cursor-pointer">Test</NavLink><img src={hoticon} className='h-5 w-5' />
+            <img src={hoticon} className='h-5 w-5' /><NavLink to='/tests' className="mr-5 hover:text-gray-900 hover:cursor-pointer">Test</NavLink>
+            <NavLink to='/r' className="mr-5 hover:text-gray-900 hover:cursor-pointer">Resources</NavLink>
             {/* <p>hey{
         count
       }</p> */}
