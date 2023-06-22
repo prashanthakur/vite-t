@@ -2,7 +2,7 @@ import React from 'react'
 
 const SingleCard = ({title}) => {
     return (
-        <div className={title == 'Html' || title == 'CSS' ? '':'w-full md:w-1/3 px-4 mb-8'}>
+        <div className={title == 'Html' || title == 'CSS' || title == 'Javascript' ? '':'w-full md:w-1/3 px-4 mb-8'}>
             <div className="bg-primary shadow-lg rounded-lg overflow-hidden">
                 {/* <img className="w-full h-48 object-cover" src={hero} alt="Card Image 1" /> */}
                 <div className="p-4">
