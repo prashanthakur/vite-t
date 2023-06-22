@@ -13,7 +13,7 @@ import { Provider } from 'react-redux'
 import store from './store/store'
 import CommonTest from './components/CommonTest'
 import JsTest from './components/JsTest'
-import Frontend from './components/roadmaps/FrontEnd'
+import Frontend from './components/Frontend'
 import Resources from './components/Resources'
 import loader from './assets/loader.gif'
 
