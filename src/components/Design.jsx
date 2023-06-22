@@ -17,38 +17,38 @@ const Design = () => {
         
         {/* <!-- card with no image --> */}
 
-<div class="p-20 bg-blue-100">
-  <h3 class="text-blue-300 mb-4 text-sm font-bold">
+<div className="p-20 bg-blue-100">
+  <h3 className="text-blue-300 mb-4 text-sm font-bold">
     1. Card with no image
   </h3>
-  <div class="bg-white p-6 rounded-lg shadow-lg">
-    <h2 class="text-2xl font-bold mb-2 text-gray-800">Card with no image</h2>
-    <p class="text-gray-700">This is my cool new card!</p>
+  <div className="bg-white p-6 rounded-lg shadow-lg">
+    <h2 className="text-2xl font-bold mb-2 text-gray-800">Card with no image</h2>
+    <p className="text-gray-700">This is my cool new card!</p>
   </div>
 </div>
 
-<div class="p-20 bg-purple-100 w-full md:w-1/2">
-  <h3 class="text-purple-300 font-bold mb-4">2. Card with image</h3>
-  <div class="bg-white rounded-lg shadow-lg">
-    <img src="https://images.unsplash.com/photo-1600054800747-be294a6a0d26?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1053&q=80" alt="" class="rounded-t-lg"/>
-    <div class="p-6">
-      <h2 class="font-bold mb-2 text-2xl text-purple-800">Card with an image
+<div className="p-20 bg-purple-100 w-full md:w-1/2">
+  <h3 className="text-purple-300 font-bold mb-4">2. Card with image</h3>
+  <div className="bg-white rounded-lg shadow-lg">
+    <img src="https://images.unsplash.com/photo-1600054800747-be294a6a0d26?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1053&q=80" alt="" className="rounded-t-lg"/>
+    <div className="p-6">
+      <h2 className="font-bold mb-2 text-2xl text-purple-800">Card with an image
       </h2>
-      <p class="text-purple-700 mb-2">This is a little bit better of a card!</p>
-      <a href="#" class="text-purple-600 hover:text-purple-500 underline text-sm">Read More 👉</a>
+      <p className="text-purple-700 mb-2">This is a little bit better of a card!</p>
+      <a href="#" className="text-purple-600 hover:text-purple-500 underline text-sm">Read More 👉</a>
     </div>
 
   </div>
 </div>
 
 {/* <!-- horizontal card --> */}
-<div class="p-20 bg-orange-200">
-  <h3 class="text-orange-400 font-bold mb-4">3. Horizontal &amp; Responsive Card</h3>
-  <div class="bg-white rounded-lg shadow-2xl md:flex">
-    <img src="https://images.unsplash.com/photo-1593642532744-d377ab507dc8" alt="Laptop on Desk" class="md:w-1/3 rounded-t-lg md:rounded-l-lg md:rounded-t-none" />
-    <div class="p-6">
-      <h2 class="font-bold text-xl md:text-3xl mb-2 text-orange-700">Horizontal Card</h2>
-      <p class="text-orange-700">
+<div className="p-20 bg-orange-200">
+  <h3 className="text-orange-400 font-bold mb-4">3. Horizontal &amp; Responsive Card</h3>
+  <div className="bg-white rounded-lg shadow-2xl md:flex">
+    <img src="https://images.unsplash.com/photo-1593642532744-d377ab507dc8" alt="Laptop on Desk" className="md:w-1/3 rounded-t-lg md:rounded-l-lg md:rounded-t-none" />
+    <div className="p-6">
+      <h2 className="font-bold text-xl md:text-3xl mb-2 text-orange-700">Horizontal Card</h2>
+      <p className="text-orange-700">
         Look at me go sideways!
       </p>
     </div>
