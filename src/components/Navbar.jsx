@@ -4,6 +4,7 @@ import hoticon from '../assets/hot.png'
 import { useSelector } from 'react-redux';
 import { ToastContainer, toast } from 'react-toastify';
 import 'react-toastify/dist/ReactToastify.css';
+import ScrollToTopButton from './addons/ScrollToTopButton';
 
 const Navbar = () => {
   const items = useSelector((state) => state.cart);
@@ -20,7 +21,8 @@ const Navbar = () => {
             <NavLink to="/" className="mr-5 hover:text-gray-900 hover:cursor-pointer">Learn{items.length >= 1 ? items.length : ''}</NavLink>&nbsp;&nbsp;
             <NavLink to='/practice' className="mr-5 hover:text-gray-900 hover:cursor-pointer">Practice</NavLink>&nbsp;&nbsp;
             <img src={hoticon} className='h-5 w-5' /><NavLink to='/tests' className="mr-5 hover:text-gray-900 hover:cursor-pointer">Test</NavLink>
-            <NavLink to='/r' className="mr-5 hover:text-gray-900 hover:cursor-pointer">Resources</NavLink>
+            {/* <NavLink to='/r' className="mr-5 hover:text-gray-900 hover:cursor-pointer">Resources</NavLink> */}
+            <NavLink to='/chl' className="mr-5 hover:text-gray-900 hover:cursor-pointer">JS Challenge</NavLink>
             {/* <p>hey{
         count
       }</p> */}
@@ -41,6 +43,7 @@ const Navbar = () => {
                 <path d="M5 12h14M12 5l7 7-7 7"></path>
               </svg>
             </button>
+            <ScrollToTopButton/>
           </div>
         </div>
       </header>
