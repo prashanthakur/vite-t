@@ -12,7 +12,6 @@
   "dependencies": {
     "@monaco-editor/react": "^4.5.1",
     "@reduxjs/toolkit": "^1.9.5",
-    "js-slang": "^1.0.23",
     "react": "^18.2.0",
     "react-dom": "^18.2.0",
     "react-redux": "^8.1.0",
