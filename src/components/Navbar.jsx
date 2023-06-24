@@ -18,11 +18,11 @@ const Navbar = () => {
       <header className="text-gray-600 body-font bg-whitish">
         <div className="container mx-auto flex flex-wrap p-5 flex-col md:flex-row items-center text-pulp">
           <nav className="flex lg:w-2/5 flex-wrap items-center text-base md:ml-auto">
-            <NavLink to="/" className="mr-5 hover:text-gray-900 hover:cursor-pointer">Learn{items.length >= 1 ? items.length : ''}</NavLink>&nbsp;&nbsp;
+            <NavLink to="/" className="mr-5 hover:text-gray-900 hover:cursor-pointer">Home{items.length >= 1 ? items.length : ''}</NavLink>&nbsp;&nbsp;
             <NavLink to='/practice' className="mr-5 hover:text-gray-900 hover:cursor-pointer">Practice</NavLink>&nbsp;&nbsp;
             <img src={hoticon} className='h-5 w-5' /><NavLink to='/tests' className="mr-5 hover:text-gray-900 hover:cursor-pointer">Test</NavLink>
             {/* <NavLink to='/r' className="mr-5 hover:text-gray-900 hover:cursor-pointer">Resources</NavLink> */}
-            <NavLink to='/chl' className="mr-5 hover:text-gray-900 hover:cursor-pointer">JS Challenge</NavLink>
+            <NavLink to='/chl' className="mr-5 hover:text-gray-900 hover:cursor-pointer">JS</NavLink>
             {/* <p>hey{
         count
       }</p> */}

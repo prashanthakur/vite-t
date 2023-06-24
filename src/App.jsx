@@ -14,6 +14,7 @@ import Frontend from './components/Frontend'
 import Resources from './components/Resources'
 import loader from './assets/loader.gif'
 import {htmlQues,cssQues,jsQues} from './components/constant'
+import CodeEditor from './components/extras/CodeEditor'
 
 // https://colorhunt.co/palette/ecf8f9068da97e1717e55807
 
@@ -46,6 +47,7 @@ function App() {
                                 <Route path='/frontend-roadmap' element={<Frontend />}></Route>
                                 <Route path='/courses' element={<Courses />}></Route>
                                 <Route path='/r' element={<Resources />}></Route>
+                                <Route path='/practice' element={<CodeEditor/>}></Route>
                                 <Route path='*' element={<ComingSoon />} />
                             </Routes>
                             <Footer />
